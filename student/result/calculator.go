@@ -20,6 +20,7 @@ func CalculateAverage(marks []int) float64 {
 	return float64(total) / float64(len(marks))
 }
 
+// CalculateGrade returns a grade based on the student's average.
 func CalculateGrade(average float64) string {
 
 	if average >= 90 {
